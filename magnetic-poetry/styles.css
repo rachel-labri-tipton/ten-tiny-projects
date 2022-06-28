@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+nav {
+    margin-top: 200px;
+}
+h1 {
+    color: #323330;
+}
+
+.magnet {
+	position: absolute;
+	padding: 5px 10px;
+	background-color: #fff;
+	border-top: 1px solid rgba(0,0,0,0.05);
+	border-left: 1px solid rgba(0,0,0,0.05);
+	box-shadow: 0px 1px 0 #242424, 1px 0px 0 #242424,
+				1px 2px 0 #242424, 2px 1px 0 #242424,
+				2px 2px 2px rgba(0,0,0,0.5);
+	cursor: pointer;
+	z-index: 10;
+}
+.item {
+	position: absolute;
+	padding: 5px 10px;
+	background-color: #fff;
+	border-top: 1px solid rgba(0,0,0,0.05);
+	border-left: 1px solid rgba(0,0,0,0.05);
+	box-shadow: 0px 1px 0 #242424, 1px 0px 0 #242424,
+				1px 2px 0 #242424, 2px 1px 0 #242424,
+				2px 2px 2px rgba(0,0,0,0.5);
+	cursor: pointer;
+	z-index: 10;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.magnet-container {
+    margin-top: 200px
+}
+
+.draggable {
+    position: absolute;
+	padding: 5px 10px;
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fff;
+	border-top: 1px solid rgba(0,0,0,0.05);
+	border-left: 1px solid rgba(0,0,0,0.05);
+	box-shadow: 0px 1px 0 #242424, 1px 0px 0 #242424,
+				1px 2px 0 #242424, 2px 1px 0 #242424,
+				2px 2px 2px rgba(0,0,0,0.5);
+	cursor: pointer;
+	z-index: 10;
+}
