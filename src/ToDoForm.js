@@ -18,7 +18,7 @@ const ToDoForm = ({ addTask }) => {
         value={userInput}
         type='text'
         onChange={handleChange}
-        placeholder='Enter task...'
+        placeholder='What do you want to do?'
       />
       <button>Add Task</button>
     </form>
