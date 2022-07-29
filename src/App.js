@@ -41,10 +41,11 @@ function App () {
       </div>
       <div className='calendar-container'>
         <div className='weekdays-container'>
-          <WeekDays />
+          <WeekDays className='days' />
         </div>
       </div>
-      <div className='container'>
+      <div className='form-container'>
+        <h1> Things to do this week:</h1>
         <ToDoForm addTask={addTask} />
       </div>
       <div className='task-container'>

@@ -19,7 +19,9 @@ const ToDoForm = ({ addTask }) => {
         value={userInput}
         type='text'
         onChange={handleChange}
-        placeholder='What do you want to do?'
+        InputProps={{ style: { fontSize: 40 } }}
+        InputLabelProps={{ style: { fontSize: 40 } }}
+        placeholder=''
       />
       <button>Add Task</button>
     </form>
