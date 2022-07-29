@@ -15,6 +15,7 @@ const ToDoForm = ({ addTask }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        style={{ marginRight: 10 }}
         value={userInput}
         type='text'
         onChange={handleChange}
